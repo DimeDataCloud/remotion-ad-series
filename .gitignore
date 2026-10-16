@@ -1,0 +1,22 @@
+# Dependencies and render output
+node_modules/
+out/
+build/
+dist/
+.remotion/
+
+# Rendered video and images (never commit binaries)
+*.mp4
+*.mov
+*.webm
+
+# Local environment and logs (never commit)
+.env
+.env.*
+*.log
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
